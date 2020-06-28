@@ -1,0 +1,79 @@
+/* PC用*/
+@media screen and (min-width: 768px) {
+
+}
+
+/*タブレット用*/
+@media screen and (max-width: 767px) {
+
+ header {
+      width: 300px;
+  }
+
+  .left {
+      width: 100px;
+  }
+  .right {
+      width: 125px;
+  }
+
+  .right-right{
+      width: 75px;
+  }
+
+  .bottom{
+      width: 200px;
+  }
+
+  footer {
+      width: 300px;
+  }
+}
+
+/*スマホ用*/
+@media screen and (max-width: 479px) {
+  
+ .wrapper {
+     float: none;
+     width: 150px;
+
+ }
+ 
+    header {
+      width: 150px;
+      order: 1;
+      
+  }
+
+  .clearfix {
+    display: flex;
+    flex-direction:column;
+  }
+
+  .left {
+      width: 150px;
+      height: 150px;
+      order: 1;
+  }
+
+  .right {
+      width: 150px;
+      order: 3;
+  }
+
+  .right-right {
+    width: 150px;
+    order: 2;
+ }
+
+  .bottom {
+      width: 150px;
+      order: 4;
+  }
+
+  footer {
+      width: 150px;
+  }
+
+  
+}
