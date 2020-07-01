@@ -1,0 +1,98 @@
+body {
+    min-height: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+.clearfix::after {
+    content:"";
+    display: block;
+    clear:both;
+}
+
+.wrapper {
+    width: 400px;
+    margin: 0 auto;
+/*wrapperクラスを中央よせ*/
+}
+
+/* header */
+header {
+    height: 100px;
+    width: 400px;
+    background-color: #141f40;
+}
+
+/* headerの中の箱 */
+.box {
+    float: right;
+    margin: 20px;
+}
+
+.box1,.box2,.box3 {
+    height: 40px;
+    width: 40px;
+    background-color: #a9004b;
+    position: relative;
+    border: solid  white;
+    float: left;
+}
+
+.box1 {
+    border-width: 10px 5px 10px 10px;
+}
+
+.box2 {
+    border-width: 10px 5px 10px 5px;
+}
+
+.box3 {
+    border-width: 10px 10px 10px 5px;
+}
+
+/* left */
+.left {
+    height: 250px;
+    width: 150px;
+    background-color: #80bfa8;
+    float: left;
+}
+/* right */
+.right {
+    height: 250px;
+    width: 250px;
+    background-color: #8c2727;
+    float: left;
+}
+
+.right-box {
+    margin: 40px 60px 40px 40px;
+}
+    
+
+.right-box-inner1,.right-box-inner2,.right-box-inner3 {
+    height: 40px;
+    width: 140px;
+    background-color: #ff863f;
+    border: solid 5px white;
+    /* オレンジの周りを白で囲む */
+}
+
+.right-box-inner1 {
+    margin-bottom: 10px;
+}
+
+.right-box-inner2 {
+    margin: 10px 0;
+}
+
+.right-box-inner3 {
+    margin-top: 10px;
+}
+
+/* footer */
+footer {
+    height: 100px;
+    width: 400px;
+    background-color: #d98d30;
+}
