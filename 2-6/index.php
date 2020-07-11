@@ -4,11 +4,40 @@ while($num < 10) {
     echo $num;
     $num++;
 }
+echo "<br>";
+
+$num = 0;
+do {
+    echo $num;
+    $num++;
+} while($num < 10);
+
+echo "<br>";
+$num = 0;
+while($num < 10) {
+    echo $num;
+    $num++;
+    if($num == 5) {
+        break;
+    }
+}
+
+echo "<br>";
+$num = 0;
+while($num < 101) {
+    echo $num;
+    echo "<br>";
+    $num++;
+    if($num == 101) {
+        break;
+    }
+
+}
 
 
 
-
-
+echo "<br>";
+echo "<br>";
 
 echo "【サブクエリ】";
 echo "<br>";
