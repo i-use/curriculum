@@ -1,0 +1,24 @@
+
+/* index.php */
+
+body {
+    background-color: black;
+    text-align: center;
+    font-family: serif;
+    margin: 100px 0;
+}
+
+h1 {
+    color: white;
+    border-bottom: solid; color: white;
+}
+
+/* question.php */
+
+p,h2 {
+    color: white;
+}
+
+#question1 {
+ color: white;
+}
